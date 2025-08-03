@@ -1,0 +1,20 @@
+# Image de base
+FROM node:18-alpine
+
+# Installer les dépendances système nécessaires
+RUN apk add --no-cache python3 make g++
+
+# Créer le répertoire de l'application
+WORKDIR /app
+
+# Copier les fichiers de dépendances
+COPY package*.json ./
+
+# Installer toutes les dépendances (incluant les devDependencies)
+RUN npm install
+
+# Exposer le port de développement de Vite
+EXPOSE 5173
+
+# Commande par défaut pour le développement
+CMD ["npm", "run", "dev", "--", "--host"] 

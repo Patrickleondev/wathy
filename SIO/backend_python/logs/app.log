@@ -1,0 +1,142 @@
+2025-07-28 23:31:44 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-28 23:31:44 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-28 23:31:44 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-28 23:31:44 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-28 23:31:44 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-28 23:31:47 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-28 23:31:47 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-28 23:31:47 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-28 23:31:52 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-28 23:31:52 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-28 23:31:52 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-28 23:31:52 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-28 23:31:52 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-28 23:32:08 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-28 23:32:08 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-28 23:32:08 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-28 23:32:15 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-28 23:32:15 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-28 23:32:15 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-28 23:32:15 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-28 23:32:15 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-28 23:33:01 | ERROR | main:general_exception_handler:420 | Erreur non gérée: PyObjectId.__get_pydantic_json_schema__() takes 2 positional arguments but 3 were given
+2025-07-28 23:33:09 | ERROR | main:general_exception_handler:420 | Erreur non gérée: PyObjectId.__get_pydantic_json_schema__() takes 2 positional arguments but 3 were given
+2025-07-28 23:34:25 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-28 23:34:25 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-28 23:34:25 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-28 23:34:29 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-28 23:34:30 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-28 23:34:30 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-28 23:34:30 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-28 23:34:30 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-28 23:34:50 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-28 23:34:50 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-28 23:34:50 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-28 23:42:40 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-28 23:42:40 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-28 23:42:40 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-28 23:42:40 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-28 23:42:40 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-28 23:44:02 | ERROR | main:general_exception_handler:420 | Erreur non gérée: Unable to serialize unknown type: <class 'method'>
+2025-07-28 23:44:03 | ERROR | main:general_exception_handler:420 | Erreur non gérée: Unable to serialize unknown type: <class 'method'>
+2025-07-28 23:44:14 | ERROR | main:general_exception_handler:420 | Erreur non gérée: Unable to serialize unknown type: <class 'method'>
+2025-07-28 23:44:34 | ERROR | main:general_exception_handler:420 | Erreur non gérée: Unable to serialize unknown type: <class 'method'>
+2025-07-29 00:07:59 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-29 00:07:59 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:07:59 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:28:05 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:28:05 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:28:05 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:28:05 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:28:05 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:28:11 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-29 00:28:11 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:28:11 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:28:15 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:28:15 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:28:15 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:28:15 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:28:15 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:28:50 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-29 00:28:50 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:28:50 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:28:55 | INFO | main:lifespan:41 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:28:55 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:28:55 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:28:55 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:28:55 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:29:03 | ERROR | main:general_exception_handler:420 | Erreur non gérée: Unable to serialize unknown type: <class 'method'>
+2025-07-29 00:31:30 | INFO | main:lifespan:58 | Arrêt de l'application
+2025-07-29 00:31:30 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:31:30 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:31:34 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:31:34 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:31:35 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:31:35 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:31:35 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:38:30 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 00:38:30 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:38:30 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:38:34 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:38:34 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:38:34 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:38:34 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:38:34 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:38:42 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 00:38:42 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:38:42 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:39:00 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:39:00 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:39:00 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:39:00 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:39:00 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:40:18 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 00:40:18 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:40:18 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:40:58 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:40:58 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:40:58 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:40:58 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:40:58 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:41:02 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:41:03 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:41:03 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:41:03 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:41:03 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 00:41:03 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 00:41:03 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 00:41:03 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 00:41:07 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 00:41:07 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 00:41:07 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 00:41:07 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 00:41:07 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 02:19:01 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 02:19:01 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 02:19:01 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 02:19:08 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 02:19:09 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 02:19:09 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 02:19:09 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 02:19:09 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 02:19:12 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 02:19:12 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 02:19:12 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 02:19:12 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 02:19:12 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 02:27:58 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 02:27:58 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 02:27:58 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 02:28:03 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 02:28:03 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 02:28:03 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 02:28:03 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 02:28:03 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées
+2025-07-29 14:54:55 | INFO | main:lifespan:54 | Arrêt de l'application
+2025-07-29 14:54:55 | INFO | database:close_connections:107 | Connexion MongoDB fermée
+2025-07-29 14:54:55 | INFO | database:close_connections:111 | Connexion SQLite fermée
+2025-07-29 14:58:33 | INFO | main:lifespan:37 | Démarrage de l'application SIO Audit Backend
+2025-07-29 14:58:33 | INFO | database:connect_mongodb:26 | Connecté à MongoDB: mongodb://localhost:27017/auditdb
+2025-07-29 14:58:33 | INFO | database:_create_sqlite_tables:101 | Tables SQLite créées avec succès
+2025-07-29 14:58:33 | INFO | database:connect_sqlite:50 | Connecté à SQLite: ./cache/chatbot_cache.db
+2025-07-29 14:58:33 | INFO | cache_service:cleanup_old_cache:204 | Cache nettoyé: entrées plus anciennes que 30 jours supprimées

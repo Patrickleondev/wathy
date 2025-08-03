@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  # Service Frontend Dev
+  frontend:
+    build:
+      context: ./project
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./project:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=http://localhost:4000
+    command: npm run dev -- --host
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  # Service Backend Dev
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URI=mongodb://mongodb:27017/auditdb
+    command: npm run dev
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  # Service MongoDB
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongodb_data: 

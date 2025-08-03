@@ -1,0 +1,24 @@
+2025-07-31T23:27:42.606Z [ERROR] [TEST] Test de log error
+Stack: Error: Erreur de test
+    at Object.<anonymous> (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\test_logging.js:14:42)
+    at Module._compile (node:internal/modules/cjs/loader:1723:14)
+    at Object..js (node:internal/modules/cjs/loader:1888:10)
+    at Module.load (node:internal/modules/cjs/loader:1458:32)
+    at Function._load (node:internal/modules/cjs/loader:1275:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47
+
+2025-08-01T04:41:06.224Z [ERROR] [PROCESS] Uncaught Exception
+Stack: TypeError: Missing parameter name at 1: https://git.new/pathToRegexpError
+    at name (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:73:19)
+    at lexer (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:91:27)
+    at lexer.next (<anonymous>)
+    at Iter.peek (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:106:38)
+    at Iter.tryConsume (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:112:28)
+    at Iter.text (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:128:30)
+    at consume (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:152:29)
+    at parse (C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:183:20)
+    at C:\Users\UTILISATEUR\Documents\SIO (2)\SIO\backend\node_modules\path-to-regexp\dist\index.js:294:74
+    at Array.map (<anonymous>)

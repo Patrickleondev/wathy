@@ -1,0 +1,23 @@
+# Image de base
+FROM node:18-alpine
+
+# Installer les dépendances système nécessaires
+RUN apk add --no-cache python3 make g++
+
+# Installer nodemon globalement
+RUN npm install -g nodemon
+
+# Créer le répertoire de l'application
+WORKDIR /app
+
+# Copier les fichiers de dépendances
+COPY package*.json ./
+
+# Installer toutes les dépendances (incluant les devDependencies)
+RUN npm install
+
+# Exposer le port
+EXPOSE 4000
+
+# Commande par défaut pour le développement
+CMD ["npm", "run", "dev"] 

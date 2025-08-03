@@ -1,0 +1,166 @@
+2025-07-31T23:27:42.626Z [CHATBOT_QUESTION] User: test_user - Question: "Quels utilisateurs ont utilisé SQL Developer ?"
+2025-07-31T23:27:42.628Z [CHATBOT_RESPONSE] Question: "Quels utilisateurs ont utilisé SQL Developer ?" - Response: "Les utilisateurs sont: datchemi, ATCHEMI" - Time: 250ms
+2025-07-31T23:27:42.638Z [CHATBOT_ERROR] Question: "Question invalide" - Error: Question non reconnue
+2025-07-31T23:27:42.641Z [CHATBOT_FALLBACK] Question: "Question inconnue" - Fallback: "Je n'ai pas compris la question"
+2025-08-01T04:43:37.369Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels utilisateurs ont utilis� SQL Developer ?"
+2025-08-01T04:43:37.463Z [CHATBOT_RESPONSE] Question: "Quels utilisateurs ont utilis� SQL Developer ?" - Response: "Les utilisateurs ayant utilisé SQL Developer sont : datchemi" - Time: 93ms
+2025-08-01T05:09:06.041Z [CHATBOT_QUESTION] User: anonymous - Question: "bonjour"
+2025-08-01T05:09:06.433Z [CHATBOT_RESPONSE] Question: "bonjour" - Response: "Analyse générale : 3 entrées, 3 utilisateurs, 3 types d'actions, 3 objets." - Time: 392ms
+2025-08-01T06:06:31.570Z [CHATBOT_QUESTION] User: anonymous - Question: "quelles sont les actions"
+2025-08-01T06:06:31.578Z [CHATBOT_RESPONSE] Question: "quelles sont les actions" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 8ms
+2025-08-01T06:06:41.746Z [CHATBOT_QUESTION] User: anonymous - Question: "quelles sont les utilisateurs"
+2025-08-01T06:06:41.757Z [CHATBOT_RESPONSE] Question: "quelles sont les utilisateurs" - Response: "Utilisateurs détectés : datchemi, ATCHEMI, SYSTEM" - Time: 12ms
+2025-08-01T06:06:52.666Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions select"
+2025-08-01T06:06:52.673Z [CHATBOT_RESPONSE] Question: "les actions select" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 7ms
+2025-08-01T06:07:04.483Z [CHATBOT_QUESTION] User: anonymous - Question: "le nombre de select"
+2025-08-01T06:07:04.490Z [CHATBOT_RESPONSE] Question: "le nombre de select" - Response: "Nombre total d'entrées d'audit : 3" - Time: 7ms
+2025-08-01T06:07:15.068Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions de oracle"
+2025-08-01T06:07:15.074Z [CHATBOT_RESPONSE] Question: "les actions de oracle" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 6ms
+2025-08-01T06:07:39.488Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions effectues aujourd'hui"
+2025-08-01T06:07:39.497Z [CHATBOT_RESPONSE] Question: "les actions effectues aujourd'hui" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 9ms
+2025-08-01T06:07:59.848Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'opérations SELECT sont enregistrées ?"
+2025-08-01T06:07:59.854Z [CHATBOT_RESPONSE] Question: "Combien d'opérations SELECT sont enregistrées ?" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 6ms
+2025-08-01T06:08:14.070Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'opérations LOGON sont enregistrées ?"
+2025-08-01T06:08:14.075Z [CHATBOT_RESPONSE] Question: "Combien d'opérations LOGON sont enregistrées ?" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 5ms
+2025-08-01T06:08:31.771Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'opérations LOGON sont enregistrées ?"
+2025-08-01T06:08:31.780Z [CHATBOT_RESPONSE] Question: "Combien d'opérations LOGON sont enregistrées ?" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 9ms
+2025-08-01T06:08:47.469Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelles tables ont été le plus souvent interrogées via SELECT ?"
+2025-08-01T06:08:47.479Z [CHATBOT_RESPONSE] Question: "Quelles tables ont été le plus souvent interrogées via SELECT ?" - Response: "Objets accédés : SEQ$, TABLE1, MOUVEMENT" - Time: 10ms
+2025-08-01T06:27:51.096Z [CHATBOT_QUESTION] User: anonymous - Question: "quelles sont les actions"
+2025-08-01T06:27:51.111Z [CHATBOT_RESPONSE] Question: "quelles sont les actions" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 15ms
+2025-08-01T06:27:57.242Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions de root"
+2025-08-01T06:27:57.253Z [CHATBOT_RESPONSE] Question: "les actions de root" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 11ms
+2025-08-01T09:27:49.673Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions"
+2025-08-01T09:27:49.721Z [CHATBOT_RESPONSE] Question: "les actions" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 48ms
+2025-08-01T09:27:56.877Z [CHATBOT_QUESTION] User: anonymous - Question: "les tables"
+2025-08-01T09:27:56.962Z [CHATBOT_RESPONSE] Question: "les tables" - Response: "Objets accédés : SEQ$, TABLE1, MOUVEMENT" - Time: 85ms
+2025-08-01T09:28:32.539Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs?"
+2025-08-01T09:28:32.550Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs?" - Response: "Utilisateurs détectés : datchemi, ATCHEMI, SYSTEM" - Time: 11ms
+2025-08-01T09:37:51.604Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions effectues"
+2025-08-01T09:37:51.609Z [CHATBOT_RESPONSE] Question: "les actions effectues" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 5ms
+2025-08-01T09:37:59.345Z [CHATBOT_QUESTION] User: anonymous - Question: "utilisaterus"
+2025-08-01T09:37:59.355Z [CHATBOT_RESPONSE] Question: "utilisaterus" - Response: "Analyse générale : 3 entrées, 3 utilisateurs, 3 types d'actions, 3 objets." - Time: 10ms
+2025-08-01T09:47:15.010Z [CHATBOT_QUESTION] User: anonymous - Question: "les utilisateurs du systeme"
+2025-08-01T09:47:15.018Z [CHATBOT_RESPONSE] Question: "les utilisateurs du systeme" - Response: "Utilisateurs détectés : datchemi, ATCHEMI, SYSTEM" - Time: 8ms
+2025-08-01T09:47:26.602Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions exécutes"
+2025-08-01T09:47:26.621Z [CHATBOT_RESPONSE] Question: "les actions exécutes" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE" - Time: 19ms
+2025-08-01T09:54:57.702Z [CHATBOT_QUESTION] User: anonymous - Question: "la taille total des evenements"
+2025-08-01T09:54:57.712Z [CHATBOT_RESPONSE] Question: "la taille total des evenements" - Response: "Analyse générale : 3 entrées, 3 utilisateurs, 3 types d'actions, 3 objets." - Time: 10ms
+2025-08-01T10:22:44.747Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions"
+2025-08-01T10:22:44.767Z [CHATBOT_RESPONSE] Question: "les actions" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE, DELETE" - Time: 20ms
+2025-08-01T10:22:58.163Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions select"
+2025-08-01T10:22:58.184Z [CHATBOT_RESPONSE] Question: "les actions select" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE, DELETE" - Time: 21ms
+2025-08-01T10:23:13.852Z [CHATBOT_QUESTION] User: anonymous - Question: "nombres d'actions select"
+2025-08-01T10:23:13.871Z [CHATBOT_RESPONSE] Question: "nombres d'actions select" - Response: "Types d'actions détectées : SELECT, INSERT, UPDATE, DELETE" - Time: 19ms
+2025-08-01T10:25:17.862Z [CHATBOT_QUESTION] User: anonymous - Question: "quelles sont les actions"
+2025-08-01T10:25:17.887Z [CHATBOT_RESPONSE] Question: "quelles sont les actions" - Response: "Types d'actions détectées : " - Time: 25ms
+2025-08-01T10:25:30.967Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions select"
+2025-08-01T10:25:31.019Z [CHATBOT_RESPONSE] Question: "les actions select" - Response: "Types d'actions détectées : " - Time: 52ms
+2025-08-01T10:25:51.894Z [CHATBOT_QUESTION] User: anonymous - Question: "les utilisatereurs"
+2025-08-01T10:25:51.925Z [CHATBOT_RESPONSE] Question: "les utilisatereurs" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 31ms
+2025-08-01T10:28:14.753Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les hôtes  d'où proviennent les connexions ?"
+2025-08-01T10:28:14.831Z [CHATBOT_RESPONSE] Question: "Quels sont les hôtes  d'où proviennent les connexions ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 78ms
+2025-08-01T10:28:18.755Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les hôtes  d'où proviennent les connexions ?"
+2025-08-01T10:28:18.785Z [CHATBOT_RESPONSE] Question: "Quels sont les hôtes  d'où proviennent les connexions ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 30ms
+2025-08-01T10:28:25.715Z [CHATBOT_QUESTION] User: anonymous - Question: "pourquoi ??"
+2025-08-01T10:28:25.738Z [CHATBOT_RESPONSE] Question: "pourquoi ??" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 23ms
+2025-08-01T10:28:34.808Z [CHATBOT_QUESTION] User: anonymous - Question: "utilisateurs"
+2025-08-01T10:28:34.841Z [CHATBOT_RESPONSE] Question: "utilisateurs" - Response: "Utilisateurs détectés : " - Time: 33ms
+2025-08-01T10:30:52.638Z [CHATBOT_QUESTION] User: anonymous - Question: "donne moi les utilisateurs connectés"
+2025-08-01T10:30:52.666Z [CHATBOT_RESPONSE] Question: "donne moi les utilisateurs connectés" - Response: "Utilisateurs détectés : " - Time: 28ms
+2025-08-01T10:35:34.032Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:35:34.051Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 19ms
+2025-08-01T10:36:37.858Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:36:37.874Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 16ms
+2025-08-01T10:36:37.894Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelles sont les actions les plus fréquentes ?"
+2025-08-01T10:36:37.907Z [CHATBOT_RESPONSE] Question: "Quelles sont les actions les plus fréquentes ?" - Response: "Types d'actions détectées : " - Time: 13ms
+2025-08-01T10:36:37.915Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels objets sont les plus consultés ?"
+2025-08-01T10:36:37.937Z [CHATBOT_RESPONSE] Question: "Quels objets sont les plus consultés ?" - Response: "Objets accédés : " - Time: 22ms
+2025-08-01T10:36:37.950Z [CHATBOT_QUESTION] User: anonymous - Question: "Y a-t-il des activités suspectes ?"
+2025-08-01T10:36:37.966Z [CHATBOT_RESPONSE] Question: "Y a-t-il des activités suspectes ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 16ms
+2025-08-01T10:36:37.978Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est la distribution horaire des connexions ?"
+2025-08-01T10:36:37.995Z [CHATBOT_RESPONSE] Question: "Quelle est la distribution horaire des connexions ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 17ms
+2025-08-01T10:36:38.007Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'utilisateurs distincts y a-t-il ?"
+2025-08-01T10:36:38.023Z [CHATBOT_RESPONSE] Question: "Combien d'utilisateurs distincts y a-t-il ?" - Response: "Utilisateurs détectés : " - Time: 16ms
+2025-08-01T10:36:38.029Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels programmes clients sont utilisés ?"
+2025-08-01T10:36:38.039Z [CHATBOT_RESPONSE] Question: "Quels programmes clients sont utilisés ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 10ms
+2025-08-01T10:36:38.045Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est l'activité par schéma ?"
+2025-08-01T10:36:38.055Z [CHATBOT_RESPONSE] Question: "Quelle est l'activité par schéma ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 10ms
+2025-08-01T10:38:37.483Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:38:37.492Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 9ms
+2025-08-01T10:38:37.508Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelles sont les actions les plus fréquentes ?"
+2025-08-01T10:38:37.517Z [CHATBOT_RESPONSE] Question: "Quelles sont les actions les plus fréquentes ?" - Response: "Types d'actions détectées : " - Time: 9ms
+2025-08-01T10:38:37.525Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels objets sont les plus consultés ?"
+2025-08-01T10:38:37.536Z [CHATBOT_RESPONSE] Question: "Quels objets sont les plus consultés ?" - Response: "Objets accédés : " - Time: 11ms
+2025-08-01T10:38:37.545Z [CHATBOT_QUESTION] User: anonymous - Question: "Y a-t-il des activités suspectes ?"
+2025-08-01T10:38:37.563Z [CHATBOT_RESPONSE] Question: "Y a-t-il des activités suspectes ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 18ms
+2025-08-01T10:38:37.599Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est la distribution horaire des connexions ?"
+2025-08-01T10:38:37.620Z [CHATBOT_RESPONSE] Question: "Quelle est la distribution horaire des connexions ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 21ms
+2025-08-01T10:38:37.635Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'utilisateurs distincts y a-t-il ?"
+2025-08-01T10:38:37.648Z [CHATBOT_RESPONSE] Question: "Combien d'utilisateurs distincts y a-t-il ?" - Response: "Utilisateurs détectés : " - Time: 13ms
+2025-08-01T10:38:37.658Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels programmes clients sont utilisés ?"
+2025-08-01T10:38:37.670Z [CHATBOT_RESPONSE] Question: "Quels programmes clients sont utilisés ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 12ms
+2025-08-01T10:38:37.680Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est l'activité par schéma ?"
+2025-08-01T10:38:37.690Z [CHATBOT_RESPONSE] Question: "Quelle est l'activité par schéma ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 10ms
+2025-08-01T10:39:30.843Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:39:30.854Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 11ms
+2025-08-01T10:39:30.870Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelles sont les actions les plus fréquentes ?"
+2025-08-01T10:39:30.881Z [CHATBOT_RESPONSE] Question: "Quelles sont les actions les plus fréquentes ?" - Response: "Types d'actions détectées : " - Time: 11ms
+2025-08-01T10:39:30.893Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels objets sont les plus consultés ?"
+2025-08-01T10:39:30.909Z [CHATBOT_RESPONSE] Question: "Quels objets sont les plus consultés ?" - Response: "Objets accédés : " - Time: 16ms
+2025-08-01T10:39:30.918Z [CHATBOT_QUESTION] User: anonymous - Question: "Y a-t-il des activités suspectes ?"
+2025-08-01T10:39:30.930Z [CHATBOT_RESPONSE] Question: "Y a-t-il des activités suspectes ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 12ms
+2025-08-01T10:39:30.945Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est la distribution horaire des connexions ?"
+2025-08-01T10:39:30.958Z [CHATBOT_RESPONSE] Question: "Quelle est la distribution horaire des connexions ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 13ms
+2025-08-01T10:39:30.965Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'utilisateurs distincts y a-t-il ?"
+2025-08-01T10:39:30.978Z [CHATBOT_RESPONSE] Question: "Combien d'utilisateurs distincts y a-t-il ?" - Response: "Utilisateurs détectés : " - Time: 13ms
+2025-08-01T10:39:31.044Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels programmes clients sont utilisés ?"
+2025-08-01T10:39:31.123Z [CHATBOT_RESPONSE] Question: "Quels programmes clients sont utilisés ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 79ms
+2025-08-01T10:39:31.178Z [CHATBOT_QUESTION] User: anonymous - Question: "Quelle est l'activité par schéma ?"
+2025-08-01T10:39:31.229Z [CHATBOT_RESPONSE] Question: "Quelle est l'activité par schéma ?" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 51ms
+2025-08-01T10:40:05.569Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:40:05.581Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 12ms
+2025-08-01T10:40:26.800Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T10:40:26.842Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 42ms
+2025-08-01T10:56:15.473Z [CHATBOT_QUESTION] User: anonymous - Question: "donne moi la liste des select"
+2025-08-01T10:56:15.500Z [CHATBOT_RESPONSE] Question: "donne moi la liste des select" - Response: "Analyse générale : 238 entrées, 0 utilisateurs, 0 types d'actions, 0 objets." - Time: 27ms
+2025-08-01T10:57:32.118Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions"
+2025-08-01T10:57:32.136Z [CHATBOT_RESPONSE] Question: "les actions" - Response: "Types d'actions détectées : " - Time: 18ms
+2025-08-01T11:04:48.882Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions"
+2025-08-01T11:04:49.121Z [CHATBOT_RESPONSE] Question: "les actions" - Response: "Types d'actions détectées : " - Time: 239ms
+2025-08-01T11:04:50.631Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T11:04:50.668Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 37ms
+2025-08-01T11:05:41.903Z [CHATBOT_QUESTION] User: anonymous - Question: "Quels sont les utilisateurs les plus actifs ?"
+2025-08-01T11:05:41.911Z [CHATBOT_RESPONSE] Question: "Quels sont les utilisateurs les plus actifs ?" - Response: "Utilisateurs détectés : " - Time: 8ms
+2025-08-01T11:19:07.833Z [CHATBOT_QUESTION] User: anonymous - Question: "quelles sont les utilisateurs"
+2025-08-01T11:19:07.917Z [CHATBOT_RESPONSE] Question: "quelles sont les utilisateurs" - Response: "Utilisateurs détectés : AHOOMEY, AHOSE, ATCHEMI, ATSOU, BATCH_USER, EPOSTE, GST_DEKOU, IMOBILE, MARDJA, NOUKPEDJO, OLA, SPT, SYS, SYSTEM" - Time: 84ms
+2025-08-01T11:19:22.275Z [CHATBOT_QUESTION] User: anonymous - Question: "total des actions"
+2025-08-01T11:19:22.333Z [CHATBOT_RESPONSE] Question: "total des actions" - Response: "Types d'actions détectées : TRUNCATE TABLE, ALTER PROCEDURE, CREATE PROCEDURE, SELECT, SET ROLE, CREATE INDEX, CREATE MATERIALIZED VIEW, DROP INDEX, DROP MATERIALIZED VIEW, ALTER TRIGGER, DELETE, INSERT, UPDATE, ALTER SYSTEM, ALTER USER, GRANT, CREATE TABLE, DROP TABLE" - Time: 58ms
+2025-08-01T11:19:42.149Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions select"
+2025-08-01T11:19:42.240Z [CHATBOT_RESPONSE] Question: "les actions select" - Response: "Types d'actions détectées : TRUNCATE TABLE, ALTER PROCEDURE, CREATE PROCEDURE, SELECT, SET ROLE, CREATE INDEX, CREATE MATERIALIZED VIEW, DROP INDEX, DROP MATERIALIZED VIEW, ALTER TRIGGER, DELETE, INSERT, UPDATE, ALTER SYSTEM, ALTER USER, GRANT, CREATE TABLE, DROP TABLE" - Time: 91ms
+2025-08-01T11:22:59.341Z [CHATBOT_QUESTION] User: anonymous - Question: "donne moi les actions de ola"
+2025-08-01T11:22:59.394Z [CHATBOT_RESPONSE] Question: "donne moi les actions de ola" - Response: "Types d'actions détectées : TRUNCATE TABLE, ALTER PROCEDURE, CREATE PROCEDURE, SELECT, SET ROLE, CREATE INDEX, CREATE MATERIALIZED VIEW, DROP INDEX, DROP MATERIALIZED VIEW, ALTER TRIGGER, DELETE, INSERT, UPDATE, ALTER SYSTEM, ALTER USER, GRANT, CREATE TABLE, DROP TABLE" - Time: 53ms
+2025-08-01T11:27:35.560Z [CHATBOT_QUESTION] User: anonymous - Question: "donne moi les actions de ola"
+2025-08-01T11:27:35.657Z [CHATBOT_RESPONSE] Question: "donne moi les actions de ola" - Response: "Types d'actions détectées : TRUNCATE TABLE, ALTER PROCEDURE, CREATE PROCEDURE, SELECT, SET ROLE, CREATE INDEX, CREATE MATERIALIZED VIEW, DROP INDEX, DROP MATERIALIZED VIEW, ALTER TRIGGER, DELETE, INSERT, UPDATE, ALTER SYSTEM, ALTER USER, GRANT, CREATE TABLE, DROP TABLE" - Time: 97ms
+2025-08-01T11:27:43.503Z [CHATBOT_QUESTION] User: anonymous - Question: "est ce qu'il y a un utilisateur nelly dans la base ??"
+2025-08-01T11:27:43.536Z [CHATBOT_RESPONSE] Question: "est ce qu'il y a un utilisateur nelly dans la base ??" - Response: "Utilisateurs détectés : AHOOMEY, AHOSE, ATCHEMI, ATSOU, BATCH_USER, EPOSTE, GST_DEKOU, IMOBILE, MARDJA, NOUKPEDJO, OLA, SPT, SYS, SYSTEM" - Time: 33ms
+2025-08-03T01:29:39.084Z [CHATBOT_QUESTION] User: anonymous - Question: "root"
+2025-08-03T01:29:39.263Z [CHATBOT_RESPONSE] Question: "root" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 179ms
+2025-08-03T01:33:48.753Z [CHATBOT_QUESTION] User: anonymous - Question: "hi"
+2025-08-03T01:33:48.869Z [CHATBOT_RESPONSE] Question: "hi" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 116ms
+2025-08-03T01:34:00.561Z [CHATBOT_QUESTION] User: anonymous - Question: "select"
+2025-08-03T01:34:00.688Z [CHATBOT_RESPONSE] Question: "select" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 127ms
+2025-08-03T01:34:42.146Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'utilisateurs ont effectué une action Select ?"
+2025-08-03T01:34:42.240Z [CHATBOT_RESPONSE] Question: "Combien d'utilisateurs ont effectué une action Select ?" - Response: "Utilisateurs détectés : AHOOMEY, AHOSE, ATCHEMI, ATSOU, BATCH_USER, EPOSTE, GST_DEKOU, IMOBILE, MARDJA, NOUKPEDJO, OLA, SPT, SYS, SYSTEM" - Time: 94ms
+2025-08-03T01:34:49.796Z [CHATBOT_QUESTION] User: anonymous - Question: "ok"
+2025-08-03T01:34:49.875Z [CHATBOT_RESPONSE] Question: "ok" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 79ms
+2025-08-03T10:02:56.484Z [CHATBOT_QUESTION] User: anonymous - Question: "Combien d'utilisateurs ont effectué une action Select ?"
+2025-08-03T10:02:56.597Z [CHATBOT_RESPONSE] Question: "Combien d'utilisateurs ont effectué une action Select ?" - Response: "Utilisateurs détectés : AHOOMEY, AHOSE, ATCHEMI, ATSOU, BATCH_USER, EPOSTE, GST_DEKOU, IMOBILE, MARDJA, NOUKPEDJO, OLA, SPT, SYS, SYSTEM" - Time: 113ms
+2025-08-03T10:03:06.351Z [CHATBOT_QUESTION] User: anonymous - Question: "les actions de sys"
+2025-08-03T10:03:06.452Z [CHATBOT_RESPONSE] Question: "les actions de sys" - Response: "Types d'actions détectées : TRUNCATE TABLE, ALTER PROCEDURE, CREATE PROCEDURE, SELECT, SET ROLE, CREATE INDEX, CREATE MATERIALIZED VIEW, DROP INDEX, DROP MATERIALIZED VIEW, ALTER TRIGGER, DELETE, INSERT, UPDATE, ALTER SYSTEM, ALTER USER, GRANT, CREATE TABLE, DROP TABLE" - Time: 101ms
+2025-08-03T10:03:19.528Z [CHATBOT_QUESTION] User: anonymous - Question: "aujourd'hui"
+2025-08-03T10:03:19.624Z [CHATBOT_RESPONSE] Question: "aujourd'hui" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 96ms
+2025-08-03T10:03:29.411Z [CHATBOT_QUESTION] User: anonymous - Question: "objets"
+2025-08-03T10:03:29.541Z [CHATBOT_RESPONSE] Question: "objets" - Response: "Objets accédés : TEST_2, MOON_API_DATA_VALIDATION, ALL_PROCEDURES, DUAL, GV$ENABLEDPRIVS, IND$, INT$DBA_PROCEDURES, LINK$, OBJ$, OBJAUTH$, SEQ$, SUM$, TAB$, USER$, USER_EDITIONING$, USER_OBJECTS, V$ENABLEDPRIVS, X$KZSPR, X$KZSRO, _CURRENT_EDITION_OBJ, I_SNAP$_B_BALANCE, B_BALANCE, BALANCE_EDITION_AUX, MODIF_CPTE, MODIF_MOUVEMENT, MVO_SOLDE_CPTE_JOUR_ANCIEN_PK, MVO_SOLDE_CPTE_JOUR_NOUVEAU_PK, MOUVEMENT_BATCH, SOLDE_CPT_JR_ANCIEN, SOLDE_CPT_JR_NEW, T_IMPAYES_CREDIT, MOUVEMENT_EPOSTE, SOLDE_BATCH, TEMP2, TEMPORAL_LIGNE, DATE_OPERATION, MODELEAFB, MOUVEMENT, MOUVEMENT_UL, REPORTS, MOUVEMENT_CAISSE, G500054G, CLIENT, COMPTE, I_SNAP, T_INACTIF_CCP, T_INACTIF_EPARGNE, ORA_TEMP_1_DS_1280045, ORA_TEMP_1_DS_1280046, ORA_TEMP_1_DS_1280047, ORA_TEMP_1_DS_1280048, ORA_TEMP_1_DS_1280049, ORA_TEMP_1_DS_1280050, ORA_TEMP_1_DS_1280051, ORA_TEMP_1_DS_1280052, ORA_TEMP_1_DS_1280053, ORA_TEMP_1_DS_1280054, ORA_TEMP_1_DS_1280055, ORA_TEMP_1_DS_1280056, ORA_TEMP_1_DS_1280057, ORA_TEMP_1_DS_1280058, ORA_TEMP_1_DS_1280059, ORA_TEMP_1_DS_1280060, ORA_TEMP_1_DS_1280061, ORA_TEMP_1_DS_1280062, ORA_TEMP_1_DS_1280063, ORA_TEMP_1_DS_1280064, ORA_TEMP_1_DS_1280065, ORA_TEMP_1_DS_1280066, ORA_TEMP_1_DS_1280067, ORA_TEMP_1_DS_1280068, ORA_TEMP_1_DS_1280069, ORA_TEMP_1_DS_1280070, ORA_TEMP_1_DS_1280071, ORA_TEMP_1_DS_1280072, ORA_TEMP_1_DS_1280073, ORA_TEMP_1_DS_1280074, ORA_TEMP_1_DS_1280075, ORA_TEMP_1_DS_1280076, ORA_TEMP_1_DS_1280077, ORA_TEMP_1_DS_1280078, ORA_TEMP_1_DS_1280079, ORA_TEMP_1_DS_1280080, ORA_TEMP_1_DS_1280081, ORA_TEMP_1_DS_1280082, ORA_TEMP_1_DS_1280083, ORA_TEMP_1_DS_1280084, ORA_TEMP_1_DS_1280085, ORA_TEMP_1_DS_1280086, ORA_TEMP_1_DS_1280087, ORA_TEMP_1_DS_1280088, ORA_TEMP_1_DS_1280089, ORA_TEMP_1_DS_1280090, ORA_TEMP_1_DS_1280091, ORA_TEMP_1_DS_1280092, ORA_TEMP_1_DS_1280093, ORA_TEMP_1_DS_1280094, ORA_TEMP_1_DS_1280095, ORA_TEMP_1_DS_1280096, ORA_TEMP_1_DS_1280097, ORA_TEMP_1_DS_1280098, ORA_TEMP_1_DS_1280099, ORA_TEMP_1_DS_1280100, ORA_TEMP_1_DS_1280101" - Time: 130ms
+2025-08-03T10:03:43.922Z [CHATBOT_QUESTION] User: anonymous - Question: "entrées"
+2025-08-03T10:03:44.008Z [CHATBOT_RESPONSE] Question: "entrées" - Response: "Analyse générale : 238 entrées, 14 utilisateurs, 18 types d'actions, 104 objets." - Time: 86ms
