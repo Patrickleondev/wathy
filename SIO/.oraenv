@@ -1,0 +1,41 @@
+#!/bin/bash
+# Configuration de l'environnement Oracle
+# Fichier .oraenv pour l'exporteur de métriques et SQL*Plus
+
+# Variables d'environnement Oracle
+export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+export ORACLE_SID=SMART2DTESTPDB
+export ORACLE_BASE=/opt/oracle
+export TNS_ADMIN=$ORACLE_HOME/network/admin
+
+# Ajouter Oracle au PATH
+export PATH=$ORACLE_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
+
+# Variables pour l'exporteur de métriques
+export ORACLE_HOST=192.168.132.146
+export ORACLE_PORT=1555
+export ORACLE_SERVICE=SMART2DTESTPDB
+export ORACLE_USER=test_db_metric
+export ORACLE_PASSWORD=test_db_metric
+
+# Configuration TNSNAMES.ORA
+export TNS_ENTRY="
+SMART2DTESTPDB =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.132.146)(PORT = 1555))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SMART2DTESTPDB)
+    )
+  )
+"
+
+echo "Environnement Oracle configuré :"
+echo "  ORACLE_HOME: $ORACLE_HOME"
+echo "  ORACLE_SID: $ORACLE_SID"
+echo "  HOST: $ORACLE_HOST:$ORACLE_PORT"
+echo "  SERVICE: $ORACLE_SERVICE"
+echo "  USER: $ORACLE_USER"
+echo ""
+echo "SQL*Plus disponible via: sqlplus $ORACLE_USER/$ORACLE_PASSWORD@SMART2DTESTPDB" 
