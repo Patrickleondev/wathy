@@ -1,0 +1,31 @@
+# Requirements pour le prototype LLM d'analyse d'audit Oracle
+
+# Core LLM dependencies
+transformers
+torch
+accelerate
+sentence-transformers
+
+# Vector database
+chromadb
+langchain
+
+# API framework
+fastapi
+uvicorn
+python-multipart
+
+# Data processing
+pandas
+numpy
+pydantic
+
+# Utilities
+python-dotenv
+loguru
+tqdm
+
+# Optional: for fine-tuning
+datasets
+peft
+bitsandbytes 

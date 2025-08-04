@@ -8,7 +8,8 @@ import {
   Bot,
   Activity,
   Table,
-  PieChart
+  PieChart,
+  Brain
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -25,6 +26,7 @@ const Sidebar: React.FC = () => {
     { icon: <PieChart className="h-7 w-7" />, label: 'Visualisations', path: '/dashboard/visualizations' },
     { icon: <FileText className="h-7 w-7" />, label: 'Rapports', path: '/dashboard/reports' },
     { icon: <Bot className="h-7 w-7" />, label: 'Assistant IA', path: '/dashboard/chatbot' },
+    { icon: <Brain className="h-7 w-7" />, label: 'Oracle Audit', path: '/dashboard/llm-chatbot' },
     { icon: <Settings className="h-7 w-7" />, label: 'Paramètres', path: '/dashboard/settings' }
   ];
 
@@ -33,6 +35,7 @@ const Sidebar: React.FC = () => {
     { icon: <BarChart3 className="h-7 w-7" />, label: "Vue d'ensemble", path: '/dashboard' },
     { icon: <Database className="h-7 w-7" />, label: 'Éditeur SQL', path: '/dashboard/sql-editor' },
     { icon: <Bot className="h-7 w-7" />, label: 'Assistant IA', path: '/dashboard/chatbot' },
+    { icon: <Brain className="h-7 w-7" />, label: 'Oracle Audit', path: '/dashboard/llm-chatbot' },
     { icon: <Settings className="h-7 w-7" />, label: 'Paramètres', path: '/dashboard/settings' }
   ];
 
