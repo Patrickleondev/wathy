@@ -9,6 +9,7 @@ import Reports from '../pages/dashboard/Reports';
 import Settings from '../pages/dashboard/Settings';
 import ChatbotPage from '../pages/dashboard/ChatbotPage';
 import Visualizations from '../pages/dashboard/Visualizations';
+import LLMChatbotPage from '../pages/dashboard/LLMChatbotPage'; // ✅ ici
 
 const Dashboard: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const Dashboard: React.FC = () => {
             <Route path="/reports" element={<Reports />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/chatbot" element={<ChatbotPage />} />
+            <Route path="/llm-chatbot" element={<LLMChatbotPage />} /> {/* ✅ ajout ici */}
             <Route path="/visualizations" element={<Visualizations />} />
           </Routes>
         </div>
@@ -32,4 +34,4 @@ const Dashboard: React.FC = () => {
   );
 };
 
-export default Dashboard; 
+export default Dashboard;

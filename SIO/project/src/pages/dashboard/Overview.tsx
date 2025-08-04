@@ -42,28 +42,43 @@ interface MetricCardProps {
 
 // --- Composants ---
 
-const MetricCard: React.FC<MetricCardProps> = ({ icon, title, value, change, color = "blue", loading = false }) => (
-  <div className={`bg-gradient-to-br from-${color}-900 to-${color}-800 border border-${color}-700 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105`}>
-    <div className="flex items-center justify-between mb-4">
-      <div className={`p-3 rounded-lg bg-${color}-400/20 flex items-center justify-center`}>
-        {icon}
+const MetricCard: React.FC<MetricCardProps> = ({ icon, title, value, change, color = "blue", loading = false }) => {
+  const getColorClasses = (color: string) => {
+    switch (color) {
+      case 'blue': return 'from-blue-900 to-blue-800 border-blue-700 bg-blue-400/20';
+      case 'green': return 'from-green-900 to-green-800 border-green-700 bg-green-400/20';
+      case 'red': return 'from-red-900 to-red-800 border-red-700 bg-red-400/20';
+      case 'yellow': return 'from-yellow-900 to-yellow-800 border-yellow-700 bg-yellow-400/20';
+      case 'purple': return 'from-purple-900 to-purple-800 border-purple-700 bg-purple-400/20';
+      default: return 'from-blue-900 to-blue-800 border-blue-700 bg-blue-400/20';
+    }
+  };
+
+  const colorClasses = getColorClasses(color);
+  
+  return (
+    <div className={`bg-gradient-to-br ${colorClasses} border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105`}>
+      <div className="flex items-center justify-between mb-4">
+        <div className={`p-3 rounded-lg flex items-center justify-center`}>
+          {icon}
+        </div>
+        {loading && <RefreshCw className="h-5 w-5 text-white animate-spin" />}
       </div>
-      {loading && <RefreshCw className="h-5 w-5 text-white animate-spin" />}
-    </div>
-    <div className="space-y-2">
-      <h3 className="text-white/80 text-sm font-medium">{title}</h3>
-      <div className="flex items-center gap-2">
-        <span className="text-2xl font-bold text-white">{loading ? '...' : value}</span>
-        {change !== undefined && (
-          <div className={`flex items-center gap-1 text-sm ${change >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-            <ArrowUpRight className={`h-4 w-4 ${change < 0 ? 'rotate-90' : ''}`} />
-            <span>{Math.abs(change)}%</span>
-          </div>
-        )}
+      <div className="space-y-2">
+        <h3 className="text-white/80 text-sm font-medium">{title}</h3>
+        <div className="flex items-center gap-2">
+          <span className="text-2xl font-bold text-white">{loading ? '...' : value}</span>
+          {change !== undefined && (
+            <div className={`flex items-center gap-1 text-sm ${change >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+              <ArrowUpRight className={`h-4 w-4 ${change < 0 ? 'rotate-90' : ''}`} />
+              <span>{Math.abs(change)}%</span>
+            </div>
+          )}
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Card: React.FC<CardProps> = ({ icon, title, children, color = "from-gray-900 to-gray-800 border-gray-700", loading = false }) => (
   <div className={`rounded-2xl shadow-xl border p-6 bg-gradient-to-br ${color} text-white flex flex-col gap-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl`}>

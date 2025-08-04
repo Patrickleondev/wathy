@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Chatbot from './components/Chatbot';
 import CacheStats from './components/CacheStats';
+import LLMChatbotPage from './pages/dashboard/LLMChatbotPage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
                   </PrivateRoute>
                 } 
               />
+
               <Route path="/cache" element={<CacheStats />} />
             </Routes>
           </div>

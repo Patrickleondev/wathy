@@ -8,7 +8,7 @@ import SchemaExplorer from './dashboard/SchemaExplorer';
 import Reports from './dashboard/Reports';
 import Settings from './dashboard/Settings';
 import ChatbotPage from './dashboard/ChatbotPage';
-import LLMChatbotPage from './dashboard/LLMChatbotPage';
+import OracleAuditPage from './dashboard/OracleAuditPage';
 import Visualizations from './dashboard/Visualizations';
 
 const Dashboard: React.FC = () => {
@@ -24,7 +24,7 @@ const Dashboard: React.FC = () => {
           <Route path="/reports" element={<Reports />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
-          <Route path="/llm-chatbot" element={<LLMChatbotPage />} />
+          <Route path="/oracle-audit" element={<OracleAuditPage />} />
           <Route path="/visualizations" element={<Visualizations />} />
         </Routes>
       </div>

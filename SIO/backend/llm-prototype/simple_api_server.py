@@ -9,8 +9,22 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 import uvicorn
 import time
+import logging
+import os
 
-from simple_llm_service import simple_audit_llm_service, AuditEvent
+from intelligent_llm_service import intelligent_audit_llm_service, AuditEvent
+
+# Configuration du logging
+log_path = os.path.join(os.path.dirname(__file__), '..', '..', 'logs', 'llm_debug.log')
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_path),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Oracle Audit LLM API (Simple)",
@@ -31,6 +45,7 @@ app.add_middleware(
 class QuestionRequest(BaseModel):
     question: str
     log_id: Optional[str] = None
+    logs: Optional[List[Dict[str, str]]] = None
 
 class QuestionResponse(BaseModel):
     success: bool
@@ -80,28 +95,28 @@ async def upload_logs(file: UploadFile = File(...)):
     Upload et traitement d'un fichier de logs Oracle
     """
     try:
-        print(f"Processing log upload: {file.filename}")
+        logger.info(f"Processing log upload: {file.filename}")
         
         # Lire le contenu du fichier
         content = await file.read()
         log_content = content.decode('utf-8')
         
         # Traiter les logs
-        result = simple_audit_llm_service.process_log_upload(log_content)
+        result = intelligent_audit_llm_service.process_log_upload(log_content, file.filename)
         
         # Parser pour extraire les informations
-        events = simple_audit_llm_service.log_parser.parse_log_content(log_content)
+        events = intelligent_audit_llm_service.log_parser.parse_log_content(log_content)
         
         return UploadResponse(
             success=True,
             message=result,
             log_id=f"log_{len(events)}_{hash(log_content) % 10000}",
             events_count=len(events),
-            summary=simple_audit_llm_service._generate_summary(events) if events else None
+            summary=intelligent_audit_llm_service._generate_intelligent_summary(events, intelligent_audit_llm_service._analyze_logs_intelligently(events)) if events else None
         )
         
     except Exception as e:
-        print(f"Error uploading logs: {e}")
+        logger.error(f"Error uploading logs: {e}")
         return UploadResponse(
             success=False,
             message="Erreur lors du traitement du fichier",
@@ -114,13 +129,24 @@ async def ask_llm(request: QuestionRequest):
     Poser une question sur les logs d'audit
     """
     try:
-        print(f"Processing question: {request.question}")
+        logger.info(f"Processing question: {request.question}")
         
         # Simuler un délai de traitement
         time.sleep(1)
         
+        # Traiter les logs si fournis
+        if request.logs:
+            logger.info(f"Processing {len(request.logs)} logs from request")
+            for i, log_data in enumerate(request.logs):
+                logger.info(f"Processing log {i+1}: {log_data.get('name', 'Unknown')}")
+                intelligent_audit_llm_service.process_log_upload(log_data['content'], log_data['name'])
+        else:
+            logger.warning("No logs provided in request")
+        
+        logger.info(f"Available logs in service: {list(intelligent_audit_llm_service.uploaded_logs.keys())}")
+        
         # Générer la réponse
-        response = simple_audit_llm_service.answer_question(
+        response = intelligent_audit_llm_service.answer_question(
             question=request.question,
             log_id=request.log_id
         )
@@ -134,7 +160,7 @@ async def ask_llm(request: QuestionRequest):
         )
         
     except Exception as e:
-        print(f"Error generating answer: {e}")
+        logger.error(f"Error generating answer: {e}")
         return QuestionResponse(
             success=False,
             answer="",
@@ -150,13 +176,13 @@ async def analyze_patterns(log_content: str):
     Analyser les patterns dans les logs
     """
     try:
-        print("Analyzing patterns in logs")
+        logger.info("Analyzing patterns in logs")
         
         # Parser les logs
-        events = simple_audit_llm_service.log_parser.parse_log_content(log_content)
+        events = intelligent_audit_llm_service.log_parser.parse_log_content(log_content)
         
         # Analyser les patterns
-        patterns = simple_audit_llm_service.analyze_patterns(events)
+        patterns = intelligent_audit_llm_service._analyze_logs_intelligently(events)
         
         return PatternAnalysisResponse(
             success=True,
@@ -164,7 +190,7 @@ async def analyze_patterns(log_content: str):
         )
         
     except Exception as e:
-        print(f"Error analyzing patterns: {e}")
+        logger.error(f"Error analyzing patterns: {e}")
         return PatternAnalysisResponse(
             success=False,
             patterns={},
@@ -176,7 +202,7 @@ async def get_sample_questions():
     """
     Retourne des exemples de questions d'audit Oracle
     """
-    sample_questions = simple_audit_llm_service.get_sample_questions()
+    sample_questions = intelligent_audit_llm_service.get_sample_questions()
     
     return {
         "success": True,
@@ -228,7 +254,7 @@ async def test_parse_logs(log_content: str):
     Test du parsing de logs (développement uniquement)
     """
     try:
-        events = simple_audit_llm_service.log_parser.parse_log_content(log_content)
+        events = intelligent_audit_llm_service.log_parser.parse_log_content(log_content)
         
         return {
             "success": True,
@@ -247,6 +273,49 @@ async def test_parse_logs(log_content: str):
         }
         
     except Exception as e:
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
+@app.post("/api/clear-logs")
+async def clear_logs():
+    """
+    Vide tous les logs stockés dans le service
+    """
+    try:
+        logger.info("Clearing all uploaded logs")
+        intelligent_audit_llm_service.uploaded_logs.clear()
+        intelligent_audit_llm_service.log_analyses.clear()
+        
+        return {
+            "success": True,
+            "message": "Tous les logs ont été supprimés"
+        }
+        
+    except Exception as e:
+        logger.error(f"Error clearing logs: {e}")
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
+@app.get("/api/logs-status")
+async def get_logs_status():
+    """
+    Retourne l'état des logs stockés dans le service
+    """
+    try:
+        logs_info = intelligent_audit_llm_service.get_stored_logs_info()
+        logger.info(f"Logs status requested: {logs_info}")
+        
+        return {
+            "success": True,
+            "logs_info": logs_info
+        }
+        
+    except Exception as e:
+        logger.error(f"Error getting logs status: {e}")
         return {
             "success": False,
             "error": str(e)
